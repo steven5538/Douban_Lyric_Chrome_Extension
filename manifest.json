@@ -1,9 +1,9 @@
-{
+﻿{
 	"manifest_version": 2,
 
-	"name": "Douban.fm Lyric Extension",
+	"name": "豆瓣歌詞秀 - Douban.fm Lyric Extension",
 	"description": "Show the lyric what you listening.",
-	"version": "1.0",
+	"version": "1.11",
 	"content_scripts": [ {
 		"all_frames": true,
 		"js": ["js/jquery.min.js" , "js/jquery.plugin.min.js" , "js/jquery.timer.min.js" , "douban.js"],

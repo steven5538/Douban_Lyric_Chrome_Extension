@@ -51,7 +51,7 @@ function getLyric()
 		
 		translate_name = data.split('[[["')[1].split('"')[0].split(' ; ') ;
 		
-		song = translate_name[0].toLowerCase().replace(' ' , '') ;
+		song = translate_name[0].toLowerCase() ;
 		artist = translate_name[1].toLowerCase() ;
 		
 		//console.log(song) ;
